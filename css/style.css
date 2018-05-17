@@ -1,0 +1,931 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+a:link {
+  color: white;
+}
+a:visited {
+  color: white;
+}
+a:hover {
+  color: #8bb857;
+}
+ul {
+  list-style: none;
+}
+li {
+  display: inline-block;
+}
+.for-scroll {
+  position: absolute;
+  height: 90px;
+  width: 10px;
+  background: red;
+  bottom: 100%;
+  left: -150px;
+}
+/* Header */
+header {
+  width: 100%;
+  height: 90px;
+  background-color: black;
+  position: fixed;
+  top: 0;
+  z-index: +1;
+}
+#inner_header {
+  max-width: 1280px;
+  height: 60px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#inner_header h1 {
+  float: left;
+  margin-top: 25px;
+  margin-left: 30px;
+  font-family: "Myriad Pro";
+  font-size: 35px;
+}
+#inner_header nav {
+  float: right;
+  margin-right: 30px;
+  margin-top: 20px;
+}
+header ul li {
+  float: left;
+  margin-left: 40px;
+  font-size: 18px;
+  font-family: "Myriad Pro";
+  padding: 15px;
+}
+header ul li:last-child {
+  margin-top: -5px;
+}
+/* Main Visual */
+#main {
+  width: 100%;
+  top: 0;
+  box-sizing: border-box;
+  position: relative;
+}
+#main_img {
+  margin-top: 90px;
+  width: 100%;
+  height: 600px;
+  background-image: url(../img/main.jpg);
+  background-size: cover;
+  background-position: center;
+}
+#inner_main_img {
+  padding-top: 100px;
+  width: 900px;
+  margin: 0 auto;
+  text-align: center;
+}
+#inner_main_img h2 {
+  text-align: center;
+  font-family: "Brush Script Std";
+  font-size: 10vw;
+  color: white;
+}
+#inner_main_img p {
+  text-align: center;
+  font-family: "Myriad Pro";
+  font-size: 22px;
+  color: white;
+  line-height: 44px;
+}
+#inner_main_img button {
+  margin: 40px auto;
+  width: 150px;
+  font-family: "Myriad Pro";
+  font-size: 18px;
+  box-sizing: border-box;
+  border: 2px solid #fff;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  color: white;
+  border-radius: 5px;
+  background-color: inherit;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+
+#inner_main_img button:hover {
+  background-color: #8bb857;
+  color: white;
+}
+/* Intro */
+#intro {
+  height: 580px;
+  max-width: 100%;
+  position: relative;
+  margin: 0 auto;
+  }
+#intro_left_col {
+  padding-top: 110px;
+  float: left;
+  text-align: left;
+  box-sizing: border-box;
+}
+#intro_right_col {
+  float: right;
+  padding-top: 180px;
+  box-sizing: border-box;
+  width: 850px;
+}
+#intro_right_col h2 {
+  padding-bottom: 10px;
+  font-family: Cambria;
+  font-size: 46px;
+}
+#intro_right_col p {
+  font-family: "Myriad Pro";
+  font-size: 18px;
+  padding: 30px;
+  padding-left: 5px;
+  line-height: 30px;
+  float: left;
+}
+#intro_bottom_col {
+  max-width: 1133px;
+  height: 500px;
+  margin: 0 auto;
+  background-image: url(../img/intro.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  margin-bottom: 160px;
+}
+#intro_bottom_col button {
+  width: 170px;
+  font-family: "Myriad Pro";
+  font-size: 16px;
+  float: right;
+  border: 2px solid #000;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  color: black;
+  border-radius: 5px;
+  background-color: inherit;
+  position: relative;
+  top: 80px;
+  right: 29%;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+#intro_bottom_col button:hover {
+  background-color: #8bb857;
+  color: white;
+}
+/* JJC */
+#jjc {
+  height: 730px;
+  position: relative;
+}
+#jjc_img {
+  max-width: 100%;
+  height: 600px;
+  background-image: url(../img/jjc.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+#inner_jjc_img {
+  max-width: 1210px;
+  margin: 0 auto;
+  padding-top: 100px;
+}
+#money {
+  position:relative;
+  width:150px;
+  font-family: "Myriad Pro";
+  font-size: 44px;
+  color: white;
+}
+#money::after {
+  content: " ";
+  border: 1px solid #fff;
+  width:150px;
+  position : absolute;
+  bottom:0;
+  left:0;
+}
+#inner_jjc_img h3 {
+  font-family: "Consolas";
+  font-size: 30px;
+  color: white;
+  padding: 40px;
+}
+#inner_jjc_img p {
+  position: relative;
+  font-family: "Myriad Pro";
+  font-size: 18px;
+  color: white;
+  top: -10px;
+  padding-left: 40px;
+  line-height: 30px;
+}
+#inner_jjc_img button {
+  width: 170px;
+  font-family: "Myriad Pro";
+  font-size: 18px;
+  margin-left: 40px;
+  border: 2px solid #fff;
+  top: 30px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  color: white;
+  border-radius: 5px;
+  background-color: inherit;
+  position: relative;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+#inner_jjc_img button:hover {
+  background-color: #8bb857;
+  color: white;
+}
+#inner_jjc_img h4 {
+  font-family: "Myriad Pro";
+  font-size: 18px;
+  color: white;
+  margin-left: 240px;
+  margin-top: -8px;
+  width: 116px;
+  cursor: pointer;
+}
+#inner_jjc_img h4:hover {
+  color: #8bb857;
+}
+/* How It Works */
+#how_it_works {
+  height: 550px;
+  position: relative;
+}
+#inner_how_it_works {
+  max-width: 1260px;
+  margin: 0 auto;
+}
+#inner_how_it_works h2 {
+  font-family: "Cambria";
+  font-size: 46px;
+  padding-bottom: 50px;
+  padding: 20px;
+}
+#inner_how_it_works ul {
+  height: 390px;
+  background-image: url(../img/bg4.jpg);
+  background-position: right;
+  background-repeat: no-repeat;
+}
+#inner_how_it_works ul li {
+  float: left;
+  padding: 20px;
+}
+#how_left_col img {
+  margin-bottom: 28px;
+}
+#how_left_col h4 {
+  font-family: "Myriad Pro";
+  font-size: 20px;
+  margin-bottom: 18px;
+}
+#how_left_col p {
+  font-family: "Myriad Pro";
+  font-size: 18px;
+  line-height: 36px;
+}
+#how_middle_col img {
+  margin-bottom: 26px;
+}
+#how_middle_col h4 {
+  font-family: "Myriad Pro";
+  font-size: 20px;
+  margin-bottom: 18px;
+}
+#how_middle_col p {
+  font-family: "Myriad Pro";
+  font-size: 18px;
+  line-height: 36px;
+}
+#how_right_col img {
+  top: 20px;
+  margin-bottom: 45px;
+}
+#how_right_col h4 {
+  font-family: "Myriad Pro";
+  font-size: 20px;
+  margin-bottom: 18px;
+}
+#how_right_col p {
+  font-family: "Myriad Pro";
+  font-size: 18px;
+  line-height: 36px;
+}
+/* Chef's Notes */
+#chefs_notes {
+  max-width: 1200px;
+  height: 530px;
+  margin: 0 auto;
+  position: relative;
+  padding-top: 20px;
+}
+#chefs_notes ul li {
+  float: left;
+  margin-right: 120px;
+  cursor: pointer;
+}
+#chefs_notes ul li:last-child {
+  margin-right: 0px;
+}
+#chefs_left_col {
+  margin-bottom: 100px;
+  height: 330px;
+  width: 320px;
+  background-color: white;
+  box-shadow: 0px 0px 0px gray,
+        -4px 2px 8px gray, 4px 2px 8px gray;
+}
+#chefs_left_col h5 {
+  font-family: "Myriad Pro";
+  font-size: 14px;
+  padding-top: 15px;
+  margin-left: 30px;
+  padding-bottom: 15px;
+}
+#chefs_left_col p {
+  font-family: "Myriad Pro";
+  font-size: 18px;
+  margin-left: 30px;
+  line-height: 28px;
+}
+#chefs_middle_col {
+  margin-bottom: 100px;
+  height: 330px;
+  width: 320px;
+  background-color: white;
+  box-shadow: 0px 0px 0px gray,
+        -4px 2px 8px gray, 4px 2px 8px gray;
+}
+#chefs_middle_col h5 {
+  font-family: "Myriad Pro";
+  font-size: 14px;
+  padding-top: 15px;
+  margin-left: 30px;
+  padding-bottom: 15px;
+}
+#chefs_middle_col p {
+  font-family: "Myriad Pro";
+  font-size: 18px;
+  margin-left: 30px;
+  line-height: 28px;
+}
+#chefs_right_col {
+  margin-bottom: 100px;
+  height: 330px;
+  width: 320px;
+  background-color: white;
+  box-shadow: 0px 0px 0px gray,
+        -4px 2px 8px gray, 4px 2px 8px gray;
+}
+#chefs_right_col h5 {
+  font-family: "Myriad Pro";
+  font-size: 14px;
+  padding-top: 15px;
+  margin-left: 30px;
+  padding-bottom: 15px;
+}
+#chefs_right_col p {
+  font-family: "Myriad Pro";
+  font-size: 18px;
+  margin-left: 30px;
+  line-height: 28px;
+}
+/* Footer */
+#footer {
+  width: 100%;
+  height: 160px;
+  background-image: url(../img/footer.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#inner_footer {
+  max-width: 1150px;
+  height: 60px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#footer h2 {
+  font-family: "Myriad Pro";
+  font-size: 30px;
+  margin-left: 20px;
+  padding-top: 75px;
+}
+#footer ul {
+  margin-left: 200px;
+  margin-top: -53px;
+}
+#footer li {
+  font-family: "Myriad Pro";
+  font-size: 18px;
+  padding: 25px;
+}
+#social {
+  float: right;
+  margin-top: -9px;
+}
+#social ul li {
+  padding: 5px;
+}
+/* PC View */
+@media only screen and (min-width: 481px) {
+  /* Header */
+  #resnav {
+    display: none;
+  }
+  /* Main Visual */
+  #res_main_img {
+    display: none;
+  }
+  /* Intro */
+  #intro_right_col img {
+    display: none;
+  }
+  #res_intro_img {
+    display: none;
+  }
+  #intro_right_col button {
+    display: none;
+  }
+  /* How it works */
+  #resbg4 {
+    display: none;
+  }
+  #resfooter {
+    display: none;
+  }
+}
+/* Tablet View */
+@media only screen and (max-width: 768px) and (min-width: 481px) {
+  /* Header */
+  #inner_header {
+    width: 100%;
+    height: 60px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #inner_header h1 {
+    margin-top: 28px;
+    margin-left: 25px;
+    font-size: 30px;
+  }
+  #inner_header nav {
+    margin-right: 20px;
+    margin-top: 30px;
+  }
+  #inner_header ul li {
+    margin-left: 35px;
+    font-size: 14px;
+    padding: 10px;
+  }
+  #inner_header ul li:last-child {
+    margin-top: -8px;
+  }
+  /* Main Visual */
+  #main_img {
+    width: 100%;
+    height: 500px;
+  }
+  #inner_main_img {
+    width: 100%;
+  }
+  #inner_main_img h2 {
+    font-size: 9vw;
+  }
+  #inner_main_img p {
+    font-size: 18px;
+    line-height: 35px;
+  }
+  #inner_main_img button {
+    width: 130px;
+    font-size: 16px;
+  }
+  /* Intro */
+  #intro {
+    height: 400px;
+    width: 768px;
+    }
+  #intro_left_col img {
+    width: 200px;
+  }
+  #intro_right_col {
+    padding-top: 110px;
+    width: 566px;
+  }
+  #intro_right_col h2 {
+    padding-bottom: 0px;
+    font-size: 26px;
+  }
+  #intro_right_col p {
+    font-size: 14px;
+    padding: 20px;
+    padding-left: 5px;
+    line-height: 20px;
+  }
+  #intro_bottom_col {
+    width: 90%;
+    height: 300px;
+    margin-bottom: 120px;
+  }
+  #intro_bottom_col button {
+    width: 140px;
+    font-size: 14px;
+    top: 50px;
+    right: 27%;
+  }
+  /* JJC */
+  #jjc {
+    height: 420px;
+  }
+  #jjc_img {
+    width: 100%;
+    height: 337px;
+  }
+  #inner_jjc_img {
+    width: 90%;
+    padding-top: 50px;
+  }
+  #money {
+    width:105px;
+    font-size: 30px;
+  }
+  #money::after {
+    width:105px;
+  }
+  #inner_jjc_img h3 {
+    font-size: 25px;
+    padding: 25px;
+    padding-bottom: 0px;
+  }
+  #inner_jjc_img p {
+    font-size: 16px;
+    top: 10px;
+    padding-left: 26px;
+    line-height: 25px;
+  }
+  #inner_jjc_img button {
+    width: 140px;
+    font-size: 16px;
+    margin-left: 26px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+  #inner_jjc_img h4 {
+    font-size: 16px;
+    margin-left: 190px;
+    margin-top: -1px;
+    width: 104px;
+  }
+  /* How It Works */
+  #how_it_works {
+    height: 400px;
+  }
+  #inner_how_it_works {
+    width: 768px;
+  }
+  #inner_how_it_works h2 {
+    font-size: 28px;
+    margin-left: 15px;
+    margin-bottom: 20px;
+    padding: 0px;
+  }
+  #inner_how_it_works ul {
+    height: 390px;
+    background-image: url();
+    margin-left: 30px;
+  }
+  #inner_how_it_works ul li {
+    padding: 19px;
+  }
+  #how_left_col img {
+    margin-bottom: 28px;
+  }
+  #how_left_col h4 {
+    font-size: 14px;
+    margin-bottom: 16px;
+  }
+  #how_left_col p {
+    font-size: 14px;
+    line-height: 26px;
+  }
+  #how_middle_col img {
+    margin-bottom: 26px;
+  }
+  #how_middle_col h4 {
+    font-size: 14px;
+    margin-bottom: 18px;
+  }
+  #how_middle_col p {
+    font-size: 14px;
+    line-height: 26px;
+  }
+  #how_right_col img {
+    top: 20px;
+    margin-bottom: 45px;
+  }
+  #how_right_col h4 {
+    font-size: 14px;
+    margin-bottom: 18px;
+  }
+  #how_right_col p {
+    font-size: 14px;
+    line-height: 26px;
+  }
+  /* Chef's Notes */
+  #chefs_notes {
+    max-width: 95%;
+    height: 420px;
+  }
+  #chefs_notes ul li {
+    margin-right: 0px;
+    margin-left:35px;
+    position: absolute;
+  }
+  #chefs_middle_col {
+    margin-left: 345px;
+  }
+  #chefs_notes ul li:last-child {
+    display: none;
+  }
+  /* Footer */
+  #footer {
+    height: 100px;
+  }
+  #inner_footer {
+    width: 90%;
+    height: 40px;
+  }
+  #footer h2 {
+    font-size: 24px;
+    margin-left: 0px;
+    padding-top: 45px;
+  }
+  #footer ul {
+    margin-left: 100px;
+    margin-top: -32px;
+  }
+  #footer li {
+    font-size: 14px;
+    padding: 10px;
+  }
+  #social {
+    float: right;
+    margin-top: -10px;
+  }
+  #social ul li {
+    padding: 3px;
+  }
+}
+/* Mobile View */
+@media only screen and (max-width: 480px) {
+  /* Header */
+  #inner_header {
+    position: absolute;
+    top: 90px;
+    height: auto;
+    width: 100%;
+    border-top: 1px solid #464646;
+    text-align: right;
+  }
+  #inner_header h1 {
+    display: none;
+  }
+  #nav {
+    display: none;
+  }
+  #inner_header nav {
+    float: none;
+    padding: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    width: 100%;
+  }
+  #inner_header nav ul li:last-child {
+    display: none;
+  }
+  header ul li {
+    float: none;
+    margin: auto;
+    font-size: 18px;
+    display: block;
+    padding: 0px;
+  }
+  header ul li a {
+    display: block;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 10px 35px 10px;
+  }
+  #reshead h1 {
+    text-align: center;
+    margin-top: 28px;
+    font-family: "Myriad Pro";
+    font-size: 35px;
+  }
+  #cart {
+    margin-left: 30px;
+    float: left;
+  }
+  .menu {
+    width: 5px;
+    height: 5px;
+    background-color: white;
+    margin: 6px 0;
+  }
+  #menu {
+    float: right;
+    margin-right: 30px;
+    cursor: pointer;
+  }
+  /* Main Visual */
+  #main {
+    width: 100%;
+    top: 0;
+  }
+  #main_img {
+    height: 400px;
+    background-image: url(../img/resmain.jpg);
+  }
+  #inner_main_img {
+    padding-top: 80px;
+    width: 100%;
+  }
+  #inner_main_img h2 {
+    font-size: 12vw;
+  }
+  #inner_main_img p {
+    font-size: 16px;
+    line-height: 30px;
+  }
+  #inner_main_img button {
+    margin: 20px auto;
+    width: 120px;
+    font-size: 14px;
+    padding: 10px;
+  }
+  /* Intro */
+  #intro_left_col {
+    display: none;
+  }
+  #intro {
+    height: 850px;
+    width: 100%;
+    text-align: center;
+    }
+  #intro_right_col {
+    padding-top: 80px;
+    width: 100%;
+  }
+  #intro_right_col h2 {
+    font-size: 34px;
+  }
+  #intro_right_col p {
+    margin: auto;
+    font-size: 16px;
+    float: none;
+  }
+  #intro_bottom_col {
+    width: 95%;
+    height: 315px;
+    background-image: url(../img/resintro.jpg);
+  }
+  #intro_bottom_col button {
+    width: 150px;
+    font-size: 16px;
+    top: 350px;
+    right: 28%;
+  }
+
+  #intro_bottom_col button:hover {
+    background-color: #8bb857;
+    color: white;
+  }
+  /* JJC */
+  #jjc {
+    height: 210px;
+  }
+  #jjc_img {
+    height: 210px;
+    background-image: url(../img/resjjc.jpg);
+  }
+  #inner_jjc_img {
+    width: auto;
+    padding-top: 14px;
+  }
+  #money {
+    font-size: 30px;
+  }
+  #money::after {
+      width:106px;
+  }
+  #inner_jjc_img h3 {
+    font-size: 14px;
+    padding: 15px;
+  }
+  #inner_jjc_img p {
+    font-size: 10px;
+    top: -10px;
+    padding-left: 15px;
+    line-height: 18px;
+  }
+  #inner_jjc_img button {
+    width: 100px;
+    font-size: 10px;
+    margin-left: 15px;
+    top: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  #inner_jjc_img h4 {
+    font-size: 10px;
+    padding-left: 135px;
+    margin-top: -19px;
+    width: 65px;
+  }
+  /* How it works */
+  #how_it_works {
+    height: 1110px;
+    text-align: center;
+  }
+  #inner_how_it_works {
+    width: 290px;
+  }
+  #inner_how_it_works ul {
+    background-image: url();
+  }
+  #inner_how_it_works h2 {
+    font-size: 36px;
+    margin-top: 60px
+  }
+  #inner_how_it_works ul li p {
+    font-size: 16px;
+  }
+  /* Chef's Notes */
+  #chefs_notes {
+    width: 100%;
+    height: 1280px;
+    padding-top: 20px;
+  }
+  #chefs_notes ul {
+    text-align: center;
+  }
+  #chefs_notes ul li {
+    margin: auto;
+    float: none;
+    text-align:left;
+  }
+  #chefs_notes ul li p {
+    font-size: 16px;
+  }
+  /* Footer */
+  #footer {
+    display: none;
+  }
+  #resfooter {
+    width: 100%;
+    height: 55px;
+    background-image: url(../img/resfooter.jpg);
+  }
+  #resfooter p {
+    font-family: "Myriad Pro";
+    font-size: 10px;
+    color: white;
+    float: left;
+    margin-top: 22px;
+    margin-left: 5px;
+  }
+  #inner_resfooter {
+    width: 170px;
+    height: 30px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #inner_resfooter h2 {
+    font-family: "Myriad Pro";
+    font-size: 16px;
+    padding-top: 22px;
+    text-align: center;
+  }
+  #resfooter ul {
+    margin-right: 10px;
+    margin-top: -14px
+  }
+  #ressocial {
+    float: right;
+    margin-top: 6px;
+  }
+}

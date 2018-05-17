@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,user-scalable=0">
+  <title>FitCart</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.2/jquery.scrollTo.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-localScroll/2.0.0/jquery.localScroll.min.js"></script>
+  <script src="js/script.js"></script>
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div id="inner_header">
+      <h1><a href="#mainScroll" class="smoothscrool">FitCart</a></h1>
+      <nav id="nav" onclick ="buttonClick()" >
+        <ul class="nav">
+          <li><a href="#iScroll">About us</a></li>
+          <li><a href="#ibcScroll">Our food</a></li>
+          <li><a href="#jjcScroll">Menu</a></li>
+          <li><a href="#hiwScroll">Service</a></li>
+          <li><a href="#cnScroll">Blog</a></li>
+          <li><a href="#"><img src="img/cart.png" alt="Cart"></a></li>
+        </ul>
+      </nav>
+    </div>
+    <!-- Responcive Header -->
+    <div id="resnav">
+      <div id="cart">
+        <a href="#"><img src="img/cart.png" alt="Cart"></a>
+      </div>
+      <div id="menu">
+        <div class="menu"></div>
+        <div class="menu"></div>
+        <div class="menu"></div>
+      </div>
+      <div id="reshead">
+        <h1><a href="#mainScroll" class="smoothscrool">FitCart</a></h1>
+      </div>
+    </div>
+  </header>
+  <!-- Main Visual -->
+  <main id="main">
+    <span class="for-scroll" id="mainScroll"></span>
+    <div id="main_img">
+      <div id="inner_main_img">
+        <h2>Fast and tasty</h2>
+        <p>FitCart delivers meals to your door in 20<br>minutes or less</p>
+        <button>See full menu</button>
+      </div>
+    </div>
+  <!-- Intro -->
+  <div id="intro">
+    <span class="for-scroll" id="iScroll"></span>
+    <div id="intro_left_col">
+      <img src="img/bg1.jpg" alt="bg1">
+    </div>
+    <div id="intro_right_col">
+      <h2>Welcome eating well</h2>
+      <p>FitCart was born out of the desire to make it<br>easy to eat well, every day. After too many<br>unfulfilling, unhealthy meals at the end of<br>long work days, we were fed up. it felt like<br>our only option were quick, greasy takeout<br>or pricey restaurants... but there had to be a<br>better way. So we set out to create it.</p>
+      <img src="img/resbg1.jpg" alt="background-image">
+      <p>FitCart was launched in November 2013 with<br>the vision to usher in a new era of food<br>without compromise. Since then, we've <br>served nearly two million meals, and we<br>remain committed to providing honest food,<br>made from scratch, delivered from our<br>kitchen to your door.</p>
+    </div>
+  </div>
+  <div id="intro_bottom_col">
+    <span class="for-scroll" id="ibcScroll"></span>
+    <button>Our standards</button>
+  </div>
+  <!-- JJC -->
+  <div id="jjc">
+    <span class="for-scroll" id="jjcScroll"></span>
+    <div id="jjc_img">
+      <div id="inner_jjc_img">
+        <h2 id="money">₹699.00</h2>
+        <h3>JAMAICAN JERK CHICKEN</h3>
+        <p>Jamaican-style Jerk chicken leg served<br>atop a bed of zesty pineapple salsa rice<br>with aside of sautéedred cabbage.</p>
+        <button>I'll have this</button>
+        <h4>SEE ALL MENU</h4>
+      </div>
+    </div>
+  </div>
+  <!-- How it works -->
+  <div id="how_it_works">
+    <span class="for-scroll" id="hiwScroll"></span>
+    <div id="inner_how_it_works">
+      <h2>How it works</h2>
+      <ul>
+        <li>
+          <section id="how_left_col">
+            <img src="img/howitworks1.jpg" alt="howitworks1">
+            <h4>YOU EXPLORE THE MENU</h4>
+            <p>Choose from our full menu of<br>entrees, bowls and salads, bites,<br>sweets, and sips. Mix and match to<br>create the meal you're craving.<br>whether you're ordering for 1 or 20.</p>
+          </section>
+        </li>
+        <li>
+          <section id="how_middle_col">
+            <img src="img/howitworks2.jpg" alt="howitworks2">
+            <h4>WE MAKE YOUR MEAL</h4>
+            <p>We use high-quality ingredients and<br>seasonal produce to scratch-make<br>every meal right in our centrally-<br>located FitCart kitchen.</p>
+          </section>
+        </li>
+        <li>
+          <section id="how_right_col">
+            <img src="img/howitworks3.jpg" alt="howitworks3">
+            <h4>WE DELIVER</h4>
+            <p>We then hand your meal off to<br>one of our trosty team members,<br>who'll bring it straight to your door<br>in around 35-40 minutes. Enjoy!</p>
+          </section>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <!-- Chef's Notes -->
+  <div id="chefs_notes">
+    <span class="for-scroll" id="cnScroll"></span>
+    <ul>
+      <li>
+        <div id="chefs_left_col">
+          <img src="img/cn21.jpg" alt="cn21">
+          <h5>Chef's notes  -  21 Feb</h5>
+          <p>How do we deliver the eating well<br>experience?</p>
+        </div>
+      </li>
+      <li>
+        <div id="chefs_middle_col">
+          <img src="img/cn28.jpg" alt="cn28">
+          <h5>Chef's notes  -  28 Feb</h5>
+          <p>Costomer promise and changes<br>ahead, our sorching philosophy</p>
+        </div>
+      </li>
+      <li>
+        <div id="chefs_right_col">
+          <img src="img/gc3.jpg" alt="gc3">
+          <h5>Guest Chef  -  3 Mar</h5>
+          <p>Guest chef: three-michelin star<br>chef Kyle Connaughton</p>
+        </div>
+      </li>
+    </ul>
+  </div>
+  </main>
+  <!-- Footer -->
+  <footer id="footer">
+    <div id="inner_footer">
+      <h2><a href="#mainScroll" class="smoothscrool">FitCart</a></h2>
+      <ul class="nav">
+        <li><a href="#iScroll">About us</a></li>
+        <li><a href="#ibcScroll">Our food</a></li>
+        <li><a href="#jjcScroll">Menu</a></li>
+        <li><a href="#hiwScroll">Service</a></li>
+        <li><a href="#cnScroll">Blog</a></li>
+        <li><a href="#footer">Terms & Privacy</a></li>
+      </ul>
+      <div id="social">
+        <ul>
+          <li><a href="https://www.facebook.com/"><img src="img/social1.png" alt="facebook"></a></li>
+          <li><a href="https://www.instagram.com"><img src="img/social2.jpg" alt="instagram"></a></li>
+          <li><a href="https://twitter.com"><img src="img/social3.png" alt="twitter"></a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+  <!-- Responcive Footer -->
+  <footer id="resfooter">
+    <p><a href="">@copyrights2018</a></p>
+    <div id="inner_resfooter">
+      <h2><a href="#mainScroll" class="smoothscrool">FitCart</a></h2>
+    </div>
+    <div id="ressocial">
+      <ul>
+        <li><a href="https://www.facebook.com/"><img src="img/ressocial1.png" alt="facebook"></a></li>
+        <li><a href="https://www.instagram.com"><img src="img/ressocial2.png" alt="instagram"></a></li>
+        <li><a href="https://twitter.com"><img src="img/ressocial3.png" alt="twitter"></a></li>
+      </ul>
+    </div>
+  </footer>
+</body>
+</html>
