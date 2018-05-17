@@ -132,6 +132,9 @@ header ul li:last-child {
   text-align: left;
   box-sizing: border-box;
 }
+#intro_left_col img {
+  width: 36vw;
+}
 #intro_right_col {
   float: right;
   padding-top: 180px;
