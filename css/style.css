@@ -136,7 +136,7 @@ header ul li:last-child {
   float: right;
   padding-top: 180px;
   box-sizing: border-box;
-  width: 60vw;
+  width: 850px;
 }
 #intro_right_col h2 {
   padding-bottom: 10px;
@@ -152,7 +152,6 @@ header ul li:last-child {
   float: left;
 }
 #intro_bottom_col {
-  clear: both;
   max-width: 1133px;
   height: 500px;
   margin: 0 auto;
