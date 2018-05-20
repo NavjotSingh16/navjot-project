@@ -26,7 +26,7 @@ li {
   width: 10px;
   background: red;
   bottom: 100%;
-  left: -150px;
+  left: -500px;
 }
 /* Header */
 header {
@@ -89,7 +89,7 @@ header ul li:last-child {
 #inner_main_img h2 {
   text-align: center;
   font-family: "Brush Script Std";
-  font-size: 10vw;
+  font-size: 7.7vw;
   color: white;
 }
 #inner_main_img p {
