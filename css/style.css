@@ -333,10 +333,13 @@ header ul li:last-child {
   height: 330px;
   width: 318px;
   background-color: white;
-  border: 1px solid #ccc;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.2);
 }
 #chefs_notes ul li div:hover {
-  box-shadow: 0px 4px 8px #ccc;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+#chefs_notes ul li div img {
+  width: 100%;
 }
 #chefs_notes ul li:last-child {
   margin-right: 0px;
