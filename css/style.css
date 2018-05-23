@@ -1,6 +1,9 @@
-*{
+* {
   margin: 0;
   padding: 0;
+}
+body {
+  font-family: Sunflower;
 }
 a {
   text-decoration: none;
@@ -46,7 +49,6 @@ header {
   float: left;
   margin-top: 25px;
   margin-left: 30px;
-  font-family: "Myriad Pro";
   font-size: 35px;
 }
 #inner_header nav {
@@ -58,7 +60,6 @@ header ul li {
   float: left;
   margin-left: 40px;
   font-size: 18px;
-  font-family: "Myriad Pro";
   padding: 15px;
 }
 header ul li:last-child {
@@ -87,13 +88,12 @@ header ul li:last-child {
 }
 #inner_main_img h2 {
   text-align: center;
-  font-family: "Brush Script Std";
-  font-size: 140px;
+  font-family: Italianno;
+  font-size: 180px;
   color: white;
 }
 #inner_main_img p {
   text-align: center;
-  font-family: "Myriad Pro";
   font-size: 22px;
   color: white;
   line-height: 44px;
@@ -101,7 +101,6 @@ header ul li:last-child {
 #inner_main_img button {
   margin: 40px auto;
   width: 150px;
-  font-family: "Myriad Pro";
   font-size: 18px;
   box-sizing: border-box;
   border: 2px solid #fff;
@@ -142,11 +141,9 @@ header ul li:last-child {
 }
 #intro_right_col h2 {
   padding-bottom: 10px;
-  font-family: Cambria;
   font-size: 46px;
 }
 #intro_right_col p {
-  font-family: "Myriad Pro";
   font-size: 18px;
   padding: 30px;
   padding-left: 5px;
@@ -166,7 +163,6 @@ header ul li:last-child {
 }
 #intro_bottom_col button {
   width: 170px;
-  font-family: "Myriad Pro";
   font-size: 16px;
   float: right;
   border: 2px solid #000;
@@ -206,7 +202,6 @@ header ul li:last-child {
 #money {
   position:relative;
   width:150px;
-  font-family: "Myriad Pro";
   font-size: 44px;
   color: white;
 }
@@ -219,14 +214,13 @@ header ul li:last-child {
   left:0;
 }
 #inner_jjc_img h3 {
-  font-family: "Consolas";
   font-size: 30px;
   color: white;
   padding: 40px;
+  padding-bottom: 25px;
 }
 #inner_jjc_img p {
   position: relative;
-  font-family: "Myriad Pro";
   font-size: 18px;
   color: white;
   top: -10px;
@@ -235,7 +229,6 @@ header ul li:last-child {
 }
 #inner_jjc_img button {
   width: 170px;
-  font-family: "Myriad Pro";
   font-size: 18px;
   margin-left: 40px;
   border: 2px solid #fff;
@@ -254,7 +247,6 @@ header ul li:last-child {
   color: white;
 }
 #inner_jjc_img h4 {
-  font-family: "Myriad Pro";
   font-size: 18px;
   color: white;
   margin-left: 240px;
@@ -275,7 +267,6 @@ header ul li:last-child {
   margin: 0 auto;
 }
 #inner_how_it_works h2 {
-  font-family: "Cambria";
   font-size: 46px;
   padding-bottom: 50px;
   padding: 20px;
@@ -294,12 +285,10 @@ header ul li:last-child {
   margin-bottom: 28px;
 }
 #how_left_col h4 {
-  font-family: "Myriad Pro";
   font-size: 20px;
   margin-bottom: 18px;
 }
 #how_left_col p {
-  font-family: "Myriad Pro";
   font-size: 18px;
   line-height: 36px;
 }
@@ -307,12 +296,10 @@ header ul li:last-child {
   margin-bottom: 26px;
 }
 #how_middle_col h4 {
-  font-family: "Myriad Pro";
   font-size: 20px;
   margin-bottom: 18px;
 }
 #how_middle_col p {
-  font-family: "Myriad Pro";
   font-size: 18px;
   line-height: 36px;
 }
@@ -321,12 +308,10 @@ header ul li:last-child {
   margin-bottom: 45px;
 }
 #how_right_col h4 {
-  font-family: "Myriad Pro";
   font-size: 20px;
   margin-bottom: 18px;
 }
 #how_right_col p {
-  font-family: "Myriad Pro";
   font-size: 18px;
   line-height: 36px;
 }
@@ -343,68 +328,26 @@ header ul li:last-child {
   margin-right: 120px;
   cursor: pointer;
 }
+#chefs_notes ul li div {
+  margin-bottom: 100px;
+  height: 330px;
+  width: 318px;
+  background-color: white;
+  border: 1px solid #ccc;
+}
+#chefs_notes ul li div:hover {
+  box-shadow: 0px 4px 8px #ccc;
+}
 #chefs_notes ul li:last-child {
   margin-right: 0px;
 }
-#chefs_left_col {
-  margin-bottom: 100px;
-  height: 330px;
-  width: 320px;
-  background-color: white;
-  box-shadow: 0px 0px 0px gray,
-        -4px 2px 8px gray, 4px 2px 8px gray;
-}
-#chefs_left_col h5 {
-  font-family: "Myriad Pro";
+#chefs_notes ul li h5 {
   font-size: 14px;
   padding-top: 15px;
   margin-left: 30px;
   padding-bottom: 15px;
 }
-#chefs_left_col p {
-  font-family: "Myriad Pro";
-  font-size: 18px;
-  margin-left: 30px;
-  line-height: 28px;
-}
-#chefs_middle_col {
-  margin-bottom: 100px;
-  height: 330px;
-  width: 320px;
-  background-color: white;
-  box-shadow: 0px 0px 0px gray,
-        -4px 2px 8px gray, 4px 2px 8px gray;
-}
-#chefs_middle_col h5 {
-  font-family: "Myriad Pro";
-  font-size: 14px;
-  padding-top: 15px;
-  margin-left: 30px;
-  padding-bottom: 15px;
-}
-#chefs_middle_col p {
-  font-family: "Myriad Pro";
-  font-size: 18px;
-  margin-left: 30px;
-  line-height: 28px;
-}
-#chefs_right_col {
-  margin-bottom: 100px;
-  height: 330px;
-  width: 320px;
-  background-color: white;
-  box-shadow: 0px 0px 0px gray,
-        -4px 2px 8px gray, 4px 2px 8px gray;
-}
-#chefs_right_col h5 {
-  font-family: "Myriad Pro";
-  font-size: 14px;
-  padding-top: 15px;
-  margin-left: 30px;
-  padding-bottom: 15px;
-}
-#chefs_right_col p {
-  font-family: "Myriad Pro";
+#chefs_notes ul li p {
   font-size: 18px;
   margin-left: 30px;
   line-height: 28px;
@@ -424,7 +367,6 @@ header ul li:last-child {
   margin-right: auto;
 }
 #footer h2 {
-  font-family: "Myriad Pro";
   font-size: 30px;
   margin-left: 20px;
   padding-top: 75px;
@@ -434,7 +376,6 @@ header ul li:last-child {
   margin-top: -53px;
 }
 #footer li {
-  font-family: "Myriad Pro";
   font-size: 18px;
   padding: 25px;
 }
@@ -508,7 +449,7 @@ header ul li:last-child {
     width: 100%;
   }
   #inner_main_img h2 {
-    font-size: 9vw;
+    font-size: 16vw;
   }
   #inner_main_img p {
     font-size: 18px;
@@ -524,10 +465,10 @@ header ul li:last-child {
     width: 768px;
     }
   #intro_left_col img {
-    width: 200px;
+    width: 185px;
   }
   #intro_right_col {
-    padding-top: 110px;
+    padding-top: 103px;
     width: 566px;
   }
   #intro_right_col h2 {
@@ -536,7 +477,7 @@ header ul li:last-child {
   }
   #intro_right_col p {
     font-size: 14px;
-    padding: 20px;
+    padding: 12px;
     padding-left: 5px;
     line-height: 20px;
   }
@@ -613,7 +554,7 @@ header ul li:last-child {
     margin-left: 30px;
   }
   #inner_how_it_works ul li {
-    padding: 19px;
+    padding: 15px;
   }
   #how_left_col img {
     margin-bottom: 28px;
@@ -736,7 +677,6 @@ header ul li:last-child {
   #reshead h1 {
     text-align: center;
     margin-top: 28px;
-    font-family: "Myriad Pro";
     font-size: 35px;
   }
   #cart {
@@ -768,7 +708,7 @@ header ul li:last-child {
     width: 100%;
   }
   #inner_main_img h2 {
-    font-size: 12vw;
+    font-size: 16vw;
   }
   #inner_main_img p {
     font-size: 16px;
@@ -791,10 +731,11 @@ header ul li:last-child {
     }
   #intro_right_col {
     padding-top: 80px;
-    width: 100%;
+    width: 95%;
   }
   #intro_right_col h2 {
     font-size: 34px;
+    margin-left: -20px;
   }
   #intro_right_col p {
     margin: auto;
@@ -855,7 +796,8 @@ header ul li:last-child {
   }
   #inner_jjc_img h4 {
     font-size: 10px;
-    padding-left: 135px;
+    margin-left: 135px;
+    padding-left: 0px;
     margin-top: -19px;
     width: 65px;
   }
@@ -904,11 +846,10 @@ header ul li:last-child {
     background-image: url(../img/resfooter.jpg);
   }
   #resfooter p {
-    font-family: "Myriad Pro";
     font-size: 10px;
     color: white;
     float: left;
-    margin-top: 22px;
+    margin-top: 25px;
     margin-left: 5px;
   }
   #inner_resfooter {
@@ -918,7 +859,6 @@ header ul li:last-child {
     margin-right: auto;
   }
   #inner_resfooter h2 {
-    font-family: "Myriad Pro";
     font-size: 16px;
     padding-top: 22px;
     text-align: center;
